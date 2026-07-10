@@ -1,0 +1,28 @@
+# Environment variables & secrets (CRITICAL: Do not upload credentials!)
+.env
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local testing output (mismatch CSV reports)
+**/data_validation/
+*.csv
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
